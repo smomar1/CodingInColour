@@ -1,4 +1,3 @@
-// Lab 1.1
 // Declare your first name, last name, age, whether you like ice cream, and favorite color.
 var firstName = "Salman"; // Your first name
 var lastName = "Omar"; // Your last name
