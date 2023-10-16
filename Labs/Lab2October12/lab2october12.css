@@ -1,0 +1,121 @@
+/* General Resets */
+body, div, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f6f6f6;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* BOX MODEL */
+  .box {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    border: 5px solid #8a4b08;
+    margin: 10px;
+    background-color: #f4e8c1;
+  }
+  
+  .box.border-box {
+    /* For the border-box class, change box-sizing to border-box. */
+    box-sizing: border-box;
+  }
+  
+  /* DISPLAY PROPERTY */
+  .inline {
+    display: inline-block; /* Apply the appropriate display property to each class. */
+    margin-right: 10px;
+    background-color: #8a4b08;
+    color: #f4e8c1;
+    padding: 5px;
+  }
+  
+  .block {
+    display: block; /* Apply the appropriate display property to each class. */
+    background-color: #ca9359;
+    padding: 5px;
+  }
+  
+  /* POSITION & Z-INDEX */
+  .relative-box {
+    position: relative;
+    top: 20px; /* Set the 'relative' box to have a position 20px below its original position */
+    left: 100px; /* and 100px away from the left */
+    width: 250px;
+    height: 150px;
+    background-color: #d4a374;
+    margin-bottom: 10px;
+  }
+  
+  .absolute-box {
+    position: absolute; /* The 'absolute' box is inside of the relative div. */
+    bottom: 20px; /* Set it to be in the bottom right corner, 20px from the bottom */
+    right: 10px; /* and 10px from the right */
+    background-color: #f4e8c1;
+    width: 100px;
+    height: 50px;
+  }
+  
+  .fixed-box {
+    position: fixed; /* The 'fixed' box needs to go in the bottom right of the page at all times. */
+    bottom: 20px; /* Set the position so that it is always 20px from the right */
+    right: 20px; /* and 20px from the bottom */
+    background-color: #8a4b08;
+    color: #f4e8c1;
+    padding: 10px;
+  }
+  
+  /* FLEXBOX */
+  .flex-container {
+    display: flex; /* Set this container to be a flexbox. */
+    justify-content: space-between; /* Make the items centered on the page and an equal space from one another and the edges of the page. */
+    flex-wrap: wrap; /* Allow items to wrap to the next line when the container is too small. */
+  }
+  
+  .flex-container div {
+    width: 25%; /* Each item should take up a width of 25% of the flexbox. */
+    background-color: #d4a374;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center; /* The text inside each box should be centered too. */
+  }
+  
+  /* GRID */
+  .grid-container {
+    display: grid; /* Set this container to be a grid. */
+    grid-template-columns: repeat(3, 1fr); /* The grid should have 3 columns. */
+    grid-gap: 10px; /* There should be a 10px gap between items. */
+  }
+  
+  .grid-container div {
+    background-color: #3e2723;
+    color: #f4e8c1;
+    padding: 20px;
+    text-align: center; /* The text inside the grid items should be centered too. */
+  }
+  
+  /* RESPONSIVE DESIGN */
+  @media screen and (max-width: 768px) {
+    .flex-container {
+      flex-direction: column; /* When the browser size is smaller than 768px, make the items stacked on top of one another. */
+    }
+  
+    .flex-container div {
+      margin-bottom: 10px; /* Add a 10px margin to the items so they stay separate. */
+    }
+  
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr); /* The grid must also change to be a 2-column grid instead of 3. */
+    }
+  }
+  

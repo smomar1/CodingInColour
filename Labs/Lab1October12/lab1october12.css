@@ -1,0 +1,98 @@
+/* Typography section */
+#typography p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+  }
+  
+  #typography span {
+    text-decoration: underline;
+    text-align: center;
+  }
+  
+  #typography blockquote {
+    font-family: 'Times New Roman', serif;
+    font-size: 24px;
+    color: blue;
+  }
+  
+  /* Backgrounds and Colors section */
+  #colors .color-box {
+    background-color: teal;
+  }
+  
+  #colors #unique-div {
+    background-color: orange;
+  }
+  
+  #colors a {
+    color: #FF5733; /* Custom color for the link */
+    text-decoration: none; /* Remove the default underline */
+    transition: color 0.3s; /* Smooth color transition on hover */
+  }
+  
+  #colors a:hover {
+    color: #E34100; /* Custom color on hover */
+  }
+  
+  /* List Styles section */
+  #lists ul li:first-child {
+    list-style-type: circle; /* Different bullet point style */
+  }
+  
+  #lists ul li:nth-child(2) {
+    font-family: 'Courier New', monospace;
+    color: green;
+  }
+  
+  #lists ul li:nth-child(3) a {
+    color: purple; /* Style this link differently */
+  }
+  
+  /* Visual Effects section */
+  #effects .shadowed-text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  #effects .hover-button {
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s, box-shadow 0.3s;
+  }
+  
+  #effects .hover-button:hover {
+    color: #E34100; /* Color change on hover */
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3); /* Shadow on hover */
+  }
+  
+  #effects .effect-box {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  }
+  
+  /* Selectors section */
+  .selectors .highlight {
+    font-weight: bold;
+    color: blue;
+  }
+  
+  #unique-text {
+    font-style: italic;
+    color: red;
+  }
+  
+  .container p {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .container .nested-highlight {
+    font-weight: bold;
+    color: green;
+  }
+  
+  .special-link {
+    font-weight: bold;
+    color: purple;
+  }
+  
