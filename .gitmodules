@@ -1,0 +1,3 @@
+[submodule "Labs/Lab1October11/MyGitExperience"]
+	path = Labs/Lab1October11/MyGitExperience
+	url = git@github.com:smomar1/MyGitExperience.git
