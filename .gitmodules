@@ -5,5 +5,5 @@
 	path = Assignments/AssignmentOctober13
 	url = git@github.com:smomar1/AssignmentOctober13.git
 [submodule "InteractiveRecipeWebsite"]
-	path = Assignments/InteractiveRecipeWebsite
+	path = Assignments/AssignmentOctober16/InteractiveRecipeWebsite
 	url = git@github.com:smomar1/InteractiveRecipeWebsite.git
