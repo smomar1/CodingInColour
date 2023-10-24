@@ -7,3 +7,6 @@
 [submodule "Assignments/AssignmentOctober16/InteractiveRecipeWebsite"]
 	path = Assignments/AssignmentOctober16/InteractiveRecipeWebsite
 	url = git@github.com:smomar1/InteractiveRecipeWebsite.git
+[submodule "Projects/mini-game-website"]
+	path = Projects/mini-game-website
+	url = git@github.com:smomar1/mini-game-website.git
